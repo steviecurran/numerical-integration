@@ -1,4 +1,4 @@
-# Numerical Integration Tool
+# Numerical Integration/Cumulative Distribution Tool
 **Will plot and integrate a function over the desired range, in addition to giving the point estimates and credible intervals**
 
 Developed for the problems at [Probability and Statistics Problem Solve](https://probabilityandstatsproblemsolve.wordpress.com/2018/10/29/practice-problem-set-2-poisson-and-gamma/) <p>
