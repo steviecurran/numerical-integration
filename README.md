@@ -1,10 +1,35 @@
-# Numerical Integration/Cumulative Distribution Tool
-**Will plot and integrate a function over the desired range, in addition to giving the point estimates and credible intervals**
+##Numerical Integration Toolkit for Statistical Analysis
+### Overview
 
-Developed for the problems at [Probability and Statistics Problem Solve](https://probabilityandstatsproblemsolve.wordpress.com/2018/10/29/practice-problem-set-2-poisson-and-gamma/) <p>
-    
-Despite the ads, I find [Integral Calculator](https://www.integral-calculator.com), invaluable for an analytic solution, but sometimes this (where it exists) can be horrid - try the example below! <p>
-    
-![](https://raw.githubusercontent.com/steviecurran/numerical-integration/refs/heads/main/integrate.png)
+This project began while working through probability and statistical modelling problems involving continuous probability distributions. Several of the exercises required evaluating definite integrals that did not have convenient analytical solutions, making numerical integration the most practical approach.
 
-95.00% of the data are between 8.1100 and 51.2100
+Rather than solving each problem individually, I developed a reusable Python toolkit implementing a range of numerical integration algorithms. The result is a modular library that can be applied to a wide variety of statistical and scientific computing problems requiring numerical evaluation of integrals.
+
+![](
+integrate.png)
+
+### Motivation
+
+Many problems in probability and statistics involve evaluating integrals to calculate quantities such as:
+
+- probabilities
+- cumulative distribution functions
+- expected values
+- likelihoods
+- moments of continuous distributions
+
+When analytical solutions are unavailable or cumbersome, numerical integration provides an effective alternative.
+
+This project was developed to support that workflow while creating reusable, well-tested code rather than ad hoc calculations.
+
+### Skills Demonstrated
+- Numerical methods
+- Python software development
+- Statistical computing
+- Algorithm design
+- Code modularity
+- Validation and testing
+- Scientific programming
+
+### A Wee Note
+Originally developed while working with Gamma and Poisson distribution problems, the toolkit has since become a reusable component for evaluating definite integrals in a variety of statistical contexts.
