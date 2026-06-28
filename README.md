@@ -1,4 +1,4 @@
-##Numerical Integration Toolkit for Statistical Analysis
+## Numerical Integration Toolkit for Statistical Analysis
 ### Overview
 
 This project began while working through probability and statistical modelling problems involving continuous probability distributions. Several of the exercises required evaluating definite integrals that did not have convenient analytical solutions, making numerical integration the most practical approach.
